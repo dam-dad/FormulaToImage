@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>fvarrui.ftoi</groupId>
+	<artifactId>FormulaToImage</artifactId>
+	<version>1.0.0</version>
+
+	<name>FormulaToImage</name>
+	<description>Convierte una fórmula en MathML a imagen</description>
+
+	<properties>
+		<maven.compiler.target>11</maven.compiler.target>
+		<maven.compiler.source>11</maven.compiler.source>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-controls</artifactId>
+			<version>11.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-fxml</artifactId>
+			<version>11.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-swing</artifactId>
+			<version>11.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>de.rototor.snuggletex</groupId>
+			<artifactId>snuggletex-core</artifactId>
+			<version>1.3.0</version>
+		</dependency>
+		<dependency>
+			<groupId>de.rototor.snuggletex</groupId>
+			<artifactId>snuggletex-upconversion</artifactId>
+			<version>1.3.0</version>
+		</dependency>
+		<dependency>
+			<groupId>de.rototor.snuggletex</groupId>
+			<artifactId>snuggletex-jeuclid</artifactId>
+			<version>1.3.0</version>
+		</dependency>
+		<dependency>
+			<groupId>de.rototor.snuggletex</groupId>
+			<artifactId>snuggletex-jeuclid</artifactId>
+			<version>1.3.0</version>
+		</dependency>
+	</dependencies>
+
+</project>
