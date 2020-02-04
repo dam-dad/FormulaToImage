@@ -24,7 +24,7 @@ public static Image formulaToImage(String formula, int size, Color forecolor)
         forecolor
     );
     
-    // convierte la fórmula en una imagen
+    // renderiza la fórmula
     BufferedImage renderedImage = Converter.getInstance().render(
         session.buildDOMSubtree().item(0), 
         layout
