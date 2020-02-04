@@ -10,10 +10,10 @@
 
 <VBox fx:id="view" alignment="TOP_CENTER" fillWidth="false" prefHeight="400.0" prefWidth="400.0" spacing="5.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <HBox alignment="BASELINE_CENTER" spacing="5.0">
+      <HBox alignment="BASELINE_CENTER" maxWidth="1.7976931348623157E308" spacing="5.0">
          <children>
-            <Label text="Fórmula:" />
-            <TextArea fx:id="formulaText" prefHeight="200.0" prefWidth="200.0" />
+            <Label minWidth="-Infinity" text="Fórmula LaTeX:" />
+            <TextArea fx:id="formulaText" maxWidth="1.7976931348623157E308" />
          </children>
       </HBox>
       <Button fx:id="convertButton" mnemonicParsing="false" onAction="#onConvertAction" text="Convertir" />
