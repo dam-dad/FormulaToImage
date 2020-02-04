@@ -9,7 +9,7 @@
 	<version>1.0.0</version>
 
 	<name>FormulaToImage</name>
-	<description>Convierte una fórmula en MathML a imagen</description>
+	<description>Convierte una fórmula en LaTeX a imagen</description>
 
 	<properties>
 		<maven.compiler.target>11</maven.compiler.target>
